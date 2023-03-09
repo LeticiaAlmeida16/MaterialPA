@@ -13,9 +13,11 @@ escreval ("Digite uma temperatura em graus Celsius: ")
 leia (grausC)
 
 // PROCESSAMENTO
+grausC <- grausC
 grausF <- ((9*grausC) + 160) / 5
 
 // SAIDA
-escreval (" A temperatura ", grausC, " em graus Celsius
+escreval ("A temperatura em graus Celsius é ", grausC, ".")
+escreval ("Convertida para Graus Fahrenheit é ", grausF, ".")
 
 Fimalgoritmo
